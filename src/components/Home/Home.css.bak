@@ -1,0 +1,80 @@
+.Home {
+    background: grey;
+    display: flex;
+    height: 1350px;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative; /*parent is set as relative */
+}
+
+.Hometdetails {
+    flex-direction: row;
+}
+img {
+    position: absolute;
+    left: 53%;
+    width: 400px;
+    max-height: 250px;
+}
+
+p {
+    position: absolute;
+    color: white;
+    width: 35%;
+    left: 8%;
+    text-align: left;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Home .Homedetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        margin: 0; /* Remove extra margin */
+        padding: 0; /* Remove extra padding */
+        text-align: left; /* Align text to the left */
+        color: white;
+        width: 90%;
+        line-height: 1.5; /* Set consistent line spacing */
+    }
+    
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .Home .Homedetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        
+    }
+    
+    p {
+        position: absolute; 
+        margin: 0; /* Remove extra margin */
+        padding: 0; /* Remove extra padding */
+        text-align: left; /* Align text to the left */
+        color: white;
+        width: 90%;
+        line-height: 1.5; /* Set consistent line spacing */
+    }
+    
+}
