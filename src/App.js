@@ -7,8 +7,6 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Blog from './components/Blog/Blog'
 import Contact from './components/Contact/Contact'
-import Services from './components/Services/Services'
-import Footer from './components/Footer/Footer'
 
 
 
@@ -18,7 +16,6 @@ const App = () => {
       <NavBar/>
       <Routes>
           <Route path='/blog' element={<Blog/>} />
-          <Route path='/services' element={<Services/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path="/" exact element={<Home/>}/>
       </Routes>

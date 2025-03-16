@@ -8,24 +8,25 @@ const Home = () => {
         <div className="Home"> 
         <div>
             <PageHeader title={'Welcome..'}/>
-        </div>
+        </div>      
         <div className="Homedetails">
-        
         <p>
-        This is a portfolio site which has a summary about myself and a link to a blog site I am maintaining.
-        <br/>
-        <br/>
         <h2>About..</h2>
-        I am George V. Thomas, a graduate mechanical engineer who at initial days worked in the mechanical industry for a short term and later got switched to software firms.
+        I am George V. Thomas, a graduate engineer with over 23 years of experience with software companies mainly in development. 
+        <br/>
+        <br/> 
+        I'm an experienced Software Architect specializing in Identity and Access Management (IAM) and Java technologies.
         <br/> 
         <br/>
-        Domain Experience:<br/> Payment, Identity and Access Management, CAD
+        Domain Experience:<br/> Identity and Access Management, Payment etc.
         <br/>
         <br/>
-        In software firms, I have experience about 22+ years.  My current company is Trianz, Bangalore where I work for 16+ years and over the past 6+ years as an Architect.
+        Skills:
         <br/>
+        Java, Spring Boot, Spring Security, Spring Batch, Spring Data JPA, Spring Cloud, OAuth 2, SAML 2, OpenID Connect, IAM, Keycloak, Docker, Microservices, REST, SOAP, RabbitMQ, CI/CD pipeline, Jenkins,PostgreSQL, LDAP, Microsoft Azure, C++, JavaScript, Okta, React JS, Agile methodologies, Swagger, Git etc.
+        
         <br/>
-        Interested in job opportunities to lead a team or work as a Sr. Software Architect in Java/J2EE or related technolgies in Kerala
+        <br/>Email: encourageat@gmail.com
         </p>
         <img src={pinkflower} alt="pink flower image"></img>
         </div>

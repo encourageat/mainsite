@@ -1,7 +1,7 @@
 import './Contact.css'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import pinkflower from '../../img/pinkflower.jpg'
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/Footer/Footer'
 
 const Contact = () => {
     return (
@@ -13,7 +13,7 @@ const Contact = () => {
         <p>
             Email: 
             <br/>
-            georgeth471@gmail.com
+            encourageat@gmail.com
         </p>
         <img src={pinkflower} alt="pink flower image"></img>
         </div>
