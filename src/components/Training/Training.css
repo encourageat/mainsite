@@ -1,4 +1,4 @@
-.Home {
+.Training {
     background: white;
     display: flex;
     min-height: 1100px;
@@ -8,7 +8,7 @@
     position: relative; /*parent is set as relative */
 }
 
-.Hometdetails {
+.Trainingdetails {
     flex-direction: row;
 }
 img {

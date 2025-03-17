@@ -1,41 +1,36 @@
 import './About.css'
-//import { useEffect } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import pinkflower from '../../img/pinkflower.jpg'
+import Footer from '../../components/Footer/Footer'
 
 
 const About = () => {
 
 
     return (
-        <div className="About">
+        <div className="Home"> 
         <div>
             <PageHeader title={'About..'}/>
-        </div> 
-        <div className="Aboutdetails">
-        
+        </div>      
+        <div className="Homedetails">
         <p>
-        This is a portfolio site which has a summary about myself and a link to a blog site I am maintaining.
-        <br/>
-        <br/>
-        <h2>About..</h2>
-        I am George V. Thomas, a graduate mechanical engineer who at initial days worked in the mechanical industry for a short term and later got switched to Software firms.
+       
+        I'm George V. Thomas an experienced Software Developer specializing in Identity and Access Management (IAM) and Java technologies. I have over 23 years of experience in Software companies.
         <br/> 
         <br/>
-        Domain Experience: Payment, Identity and Access Management, CAD
+        Domain Experience:<br/> Identity and Access Management, Payment etc.
         <br/>
         <br/>
-        In Software firms, I have experience over 22+ years.  My current company is Trianz, Bangalore where I work for 16+ years and over the past 6+ years as an Architect.
+        Skills:
         <br/>
+        Java, Spring Boot, Spring Security, Spring Batch, Spring Data JPA, Spring Cloud, OAuth 2, SAML 2, OpenID Connect, IAM, Keycloak, Docker, Microservices, REST, SOAP, RabbitMQ, CI/CD pipeline, Jenkins,PostgreSQL, LDAP, Microsoft Azure, C++, JavaScript, Okta, React JS, Agile methodologies, Swagger, Git etc.
+        
         <br/>
-        Interested in job opportunities to lead a team or work as a Sr. Software Architect in Java/J2EE or related technolgies in Kerala (preferred and actively exploring), Bangalore or remote
-        <br/>
-        Contact Email: 
-        <br/>
-        georgeth471@gmail.com
+        <br/>Email: encourageat@gmail.com
         </p>
         <img src={pinkflower} alt="pink flower image"></img>
         </div>
+        <Footer/>
         </div>
       );    
 }
