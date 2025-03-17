@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mainsite/static/css/main.094b462b.css",
+    "main.js": "/mainsite/static/js/main.200ddc07.js",
+    "static/js/787.e5fba8e8.chunk.js": "/mainsite/static/js/787.e5fba8e8.chunk.js",
+    "static/media/pinkflower.jpg": "/mainsite/static/media/pinkflower.92eac282754d7f2dde9a.jpg",
+    "static/media/logo.svg": "/mainsite/static/media/logo.17831e70a2dd872a9287128c713d9aba.svg",
+    "index.html": "/mainsite/index.html",
+    "main.094b462b.css.map": "/mainsite/static/css/main.094b462b.css.map",
+    "main.200ddc07.js.map": "/mainsite/static/js/main.200ddc07.js.map",
+    "787.e5fba8e8.chunk.js.map": "/mainsite/static/js/787.e5fba8e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094b462b.css",
+    "static/js/main.200ddc07.js"
+  ]
+}
