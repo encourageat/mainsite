@@ -10,6 +10,10 @@ const NavBar = () => {
             <div className="company-title">EncourageAt</div>
             <Navigation/>
             <MobileNavigation/> 
+            <div className="contact-email">
+                <img src="images/email.svg" alt="Email" className="email-icon" /> 
+                encourageat@gmail.com
+            </div>
         </div>
       );    
 }

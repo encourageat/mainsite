@@ -1,21 +1,17 @@
 import './Services.css'
 import NavBar from '../../components/NavBar/NavBar'
-//import Footer from '../../components/Footer/Footer'
-import freelanceImage from '../../img/freelance-development.jpg'
-import teaching from '../../img/teaching.jpg'
-import consulting from '../../img/consulting.jpg'
+import Footer from '../../components/Footer/Footer'
 import PageHeader from '../../components/PageHeader/PageHeader'
 
 const Services = () => {
     return (
         <div> 
         <header>
-            <NavBar></NavBar>
             <PageHeader title={'Services..'}/>
         </header>
         <div className="container">
         <section style={{ 
-            backgroundImage: `url(${freelanceImage})`
+            backgroundImage: `url(images/freelance-development.jpg)`
             }}>
             <div className="card">
                 <h2>Freelance Development</h2>
@@ -23,7 +19,7 @@ const Services = () => {
             </div>
         </section>
         <section style={{ 
-            backgroundImage: `url('${consulting}')` 
+            backgroundImage: `url('images/consulting.jpg')` 
             }}>
             <div className="card">
                 <h2>Consulting</h2>
@@ -32,14 +28,15 @@ const Services = () => {
         </section>
 
         <section style={{ 
-            backgroundImage: `url('${teaching}')` 
+            backgroundImage: `url('images/teaching.jpg')` 
             }}>    
             <div className="card">
                 <h2>Training</h2>
                 <p>Providing online training sessions on IAM, Java, and software development best practices, tailored for professionals and organizations.</p>
             </div>
         </section>
-        </div>     
+        </div>
+        <Footer/>     
         </div>
       );    
 }

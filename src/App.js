@@ -4,8 +4,9 @@ import { Route ,Link, Routes} from "react-router-dom";
 import Services from './components/Services/Services'
 //import { Routes, Route } from 'react-router-dom'  
 //import { BrowserRouter as Router, Routes , Route, useParams } from 'react-router-dom';
-/*
+
 import NavBar from './components/NavBar/NavBar'
+/*
 import Home from './components/Home/Home'
 import Blog from './components/Blog/Blog'
 */
@@ -18,6 +19,7 @@ import About from './components/About/About'
 const App = () => {
   return (
      <div>
+      <NavBar></NavBar>
       <Routes>
           <Route path="/" exact element={<Services/>}/>
       </Routes>
