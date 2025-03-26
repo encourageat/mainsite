@@ -1,29 +1,45 @@
 import './Services.css'
+import NavBar from '../../components/NavBar/NavBar'
+//import Footer from '../../components/Footer/Footer'
+import freelanceImage from '../../img/freelance-development.jpg'
+import teaching from '../../img/teaching.jpg'
+import consulting from '../../img/consulting.jpg'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import pinkflower from '../../img/pinkflower.jpg'
-import Footer from '../../components/Footer/Footer'
 
 const Services = () => {
     return (
-        <div className="Services"> 
-        <div>
-            <PageHeader title={'Welcome..'}/>
-        </div>      
-        <div className="Servicesdetails">
-        <p>
-        <h2>Services..</h2>
-        Offers online training on Identity and Access Management- IAM with focus on Keycloak (covers Okta also briefly in part 1 of the course).
-        To know more on it click <a href="/mainsite/#/training/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}> here.</a>
+        <div> 
+        <header>
+            <NavBar></NavBar>
+            <PageHeader title={'Services..'}/>
+        </header>
+        <div className="container">
+        <section style={{ 
+            backgroundImage: `url(${freelanceImage})`
+            }}>
+            <div className="card">
+                <h2>Freelance Development</h2>
+                <p>Offering software development services in Java, Identity & Access Management, and cloud solutions. Providing high-quality, scalable applications tailored to client needs.</p>
+            </div>
+        </section>
+        <section style={{ 
+            backgroundImage: `url('${consulting}')` 
+            }}>
+            <div className="card">
+                <h2>Consulting</h2>
+                <p>Helping businesses optimize their IT strategy, implement IAM solutions, and improve security infrastructure with expert guidance.</p>
+            </div>
+        </section>
 
-        <br/><br/>Other services include Custom Software Development, Consultancy and foundational training on Java and Spring Boot.
-        
-        <br/><br/>
-        For more details, please contact in the below email <br/>
-        <br/>Email: encourageat@gmail.com
-        </p>
-        <img src={pinkflower} alt="pink flower image"></img>
-        </div>
-        <Footer/>
+        <section style={{ 
+            backgroundImage: `url('${teaching}')` 
+            }}>    
+            <div className="card">
+                <h2>Training</h2>
+                <p>Providing online training sessions on IAM, Java, and software development best practices, tailored for professionals and organizations.</p>
+            </div>
+        </section>
+        </div>     
         </div>
       );    
 }

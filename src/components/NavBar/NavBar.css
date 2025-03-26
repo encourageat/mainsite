@@ -33,6 +33,12 @@ a {
     display: none;
 }
 
+.company-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
 @media only screen and (max-width: 909px) {
 
     .MobileNavigation {

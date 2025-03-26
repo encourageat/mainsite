@@ -1,6 +1,8 @@
 import './About.css'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import pinkflower from '../../img/pinkflower.jpg'
+import flowerswhite from '../../img/flowerswhite.jpg'
+import maldives from '../../img/maldives.jpg'
 import Footer from '../../components/Footer/Footer'
 
 
@@ -28,15 +30,10 @@ const About = () => {
         <br/>
         <br/>Email: encourageat@gmail.com
         </p>
-        <img src={pinkflower} alt="pink flower image"></img>
+        <img src={maldives} alt="maldives image"></img>
         </div>
         <Footer/>
         </div>
       );    
 }
 export default About;
-/*
-      <div>
-            <PageHeader title={'About..'}/>
-        </div>
-        */
