@@ -14,7 +14,7 @@ section {
 }
     */
 
-section {
+.homesection {
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -98,7 +98,7 @@ footer {
         padding: 0px;
     }
     
-    section {
+    .homesection {
         width: 90%; /* Take full width on mobile */
     }
     .footer-content {

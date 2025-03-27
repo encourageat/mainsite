@@ -10,17 +10,20 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Blog from './components/Blog/Blog'
 */
-/*
+
 import Contact from './components/Contact/Contact'
-import Training from './components/Training/Training'
+//import Training from './components/Training/Training'
+
 import About from './components/About/About'
-*/
+
 
 const App = () => {
   return (
      <div>
       <NavBar></NavBar>
       <Routes>
+      <Route path="/about" exact element={<About/>}/>
+      <Route path='/contact' element={<Contact/>} />
           <Route path="/" exact element={<Services/>}/>
       </Routes>
     </div>
