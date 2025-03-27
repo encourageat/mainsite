@@ -14,6 +14,32 @@ section {
 }
     */
 
+
+    .lefttrsection {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 32%;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       
+    }
+    
+    .righttrsection {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 32%;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+/*
 .lefttrsection {
     background-size: cover;
     background-position: center;
@@ -26,6 +52,7 @@ section {
     position: relative;
 }
 
+
 .righttrsection {
     background-size: cover;
     background-position: center;
@@ -37,7 +64,7 @@ section {
     justify-content: center;
     position: relative;
 }
-
+*/
 .card {
     background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
     padding: 20px;

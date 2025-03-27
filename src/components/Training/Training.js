@@ -13,7 +13,7 @@ const Training = () => {
         <div className="containertr">
         <section 
   className="lefttrsection" 
-  style={{ backgroundColor: "whitesmoke" }}
+  
 > 
         <p>
         <h2>Course Details</h2><h2>Part 1</h2> <h2>Identity and Access Management - (IAM) from basics</h2>
@@ -74,7 +74,7 @@ Lab 3: Enabling MFA for users<br/>
 </section> 
 <section 
   className="righttrsection" 
-  style={{ backgroundColor: "whitesmoke" }}
+ 
 > 
 <p>Part 2 - IAM using Keycloak in more depth<br/><br/>
 For details and to entroll, please send email to encourageat@gmail.com</p> <br/>
