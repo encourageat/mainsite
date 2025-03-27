@@ -11,7 +11,7 @@ const Services = () => {
         </header>
         <div className="container">
         <section className="homesection" style={{ 
-            backgroundImage: `url(images/freelance-development.jpg)`
+            backgroundImage: `url(/mainsite/images/freelance-development.jpg)`
             }}>
             <div className="card">
                 <h2>Freelance Development</h2>
@@ -19,7 +19,7 @@ const Services = () => {
             </div>
         </section>
         <section className="homesection" style={{ 
-            backgroundImage: `url('images/consulting.jpg')` 
+            backgroundImage: `url('/mainsite/images/consulting.jpg')` 
             }}>
             <div className="card">
                 <h2>Consulting</h2>
@@ -28,7 +28,7 @@ const Services = () => {
         </section>
 
         <section className="homesection" style={{ 
-            backgroundImage: `url('images/teaching.jpg')` 
+            backgroundImage: `url('/mainsite/images/teaching.jpg')` 
             }}>    
             <div className="card">
                 <h2>Training</h2>

@@ -36,13 +36,13 @@ const NavLinks = (props) => {
         <div>    
         <ul>
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/">Home</a>
+                <a href="/mainsite">Home</a>
             </li>
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/#/about">About</a>
+                <a href="/mainsite/#/about">About</a>
             </li>
              <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/#/contact">Contact</a>
+                <a href="/mainsite/#/contact">Contact</a>
             </li>
         </ul>            </div>
         

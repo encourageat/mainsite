@@ -11,7 +11,7 @@ const NavBar = () => {
             <Navigation/>
             <MobileNavigation/> 
             <div className="contact-email">
-                <img src="images/email.svg" alt="Email" className="email-icon" /> 
+                <img src="/mainsite/images/email.svg" alt="Email" className="email-icon" /> 
                 encourageat@gmail.com
             </div>
         </div>
